@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=devive-width, initial-sccale=1">
+  <title>Animated popup modal box</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+  <section>
+    <div class="profile">
+
+      <div class="profile-img">
+        <img src="https://ih1.redbubble.net/image.3505731013.1235/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="profile image" >
+      </div>
+
+      <span class="name">Randall Riley</span>
+      <span class="profession">Scientist Rick is jealous of and Reagan's dad.</span>
+      <div class="button" id="hireBtn">
+        <i class="bx bxs-envelope"></i>
+        <button>Hire Me</button>
+      </div>
+
+    </div>
+
+    <!--  pop up box start  -->
+
+    <div class="popup-outer">
+
+      <div class="popup-box">
+
+        <i class="bx bx-x close" id="close"></i>
+
+        <div class="profile-text">
+
+          <img src="https://ih1.redbubble.net/image.3505731013.1235/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="profile image" >
+          <div class="text">
+            <span class="name">Randall Riley</span>
+            <span class="profession">Scientist Rick is jealous of and Reagan's dad.</span>
+          </div>
+
+        </div>
+
+        <form>
+          <textarea placeholder="Enter your message"></textarea>
+        </form>
+
+        <div class="button">
+          <button class="cancel" id="close">Cancel</button>
+          <button class="send">Send</button>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <script src="index.js">
+  </script>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js">
+  </script>
+</body>
+
+</html>
